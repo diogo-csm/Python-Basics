@@ -1,6 +1,4 @@
-'''
-Estruturas de Repeticao
-'''
+#Estruturas de Repeticao
 
 #while 
 
@@ -26,7 +24,6 @@ while True:
 
 # WHILE e uma condicao a ser usada geralmente quando
 # nao sabe quantas vezes o programa vai ser repetir 
-
 
 contador = 0
 while contador <= 10: #enquanto a variavel CONTADOR for menor ou igual a 10
