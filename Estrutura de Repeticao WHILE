@@ -19,3 +19,17 @@ while True:
 
   if continuar in 'N':
     break
+
+'''
+#Contador - estrutura de Repeticao While
+
+
+# WHILE e uma condicao a ser usada geralmente quando
+# nao sabe quantas vezes o programa vai ser repetir 
+
+
+contador = 0
+while contador <= 10: #enquanto a variavel CONTADOR for menor ou igual a 10
+  print(contador) # imprima contador
+  contador += 1 # soma 1 a variavel CONTADOR
+'''
