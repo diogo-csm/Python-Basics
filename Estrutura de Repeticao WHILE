@@ -1,0 +1,21 @@
+'''
+Estruturas de Repeticao
+'''
+
+#while 
+
+while True:
+  nome = (input('Digite um nome: '))
+  print(f'O nome digitado foi {nome}')
+  
+  #Certificando que o USUARIO vai responder S ou N
+  while True:  
+    continuar = input('Quer digitar outro nome? [S/N] ').upper().strip()
+    print(f'Voce digiou {continuar}')
+    if continuar in ['S' ,'N']:
+      break
+    else:
+      print("Digite 'S' para continuar ou 'N' para finalizar")
+
+  if continuar in 'N':
+    break
